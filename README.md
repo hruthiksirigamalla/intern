@@ -1,1 +1,215 @@
-# intern
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+	
+
+
+table, th, td {
+  border:4px solid black;
+}
+
+body, h1,h2,h3,h4,h5,h6 { color:black ,font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-white">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-item w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="https://th.bing.com/th/id/R.0287303cf91f9e6d6786fe4882e31858?rik=xSXlauk7GzxACA&riu=http%3a%2f%2f1000logos.net%2fwp-content%2fuploads%2f2018%2f02%2fEmblem-Tesla.jpg&ehk=gMHjZwBGHhQ9vu4Kmx2NRRNlRiZSpmEvaDe38qIxXw8%3d&risl=&pid=ImgRaw&r=0" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-white">
+    <i class="fa fa-automobile w3-xxlarge"></i>
+    <p>ABOUt</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PHOTOS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  <a href="#vedios" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-youtube-play w3-xxlarge"></i>
+    <p>vedios</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUt</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+    <a href="#vedios" class="w3-bar-item w3-button" style="width:25% !important">vedios</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-white" id="home">
+    <h1 class="w3-jumbo">
+	<span class="w3-hide-small">Welcome</span> to tesla model 3 </h1>
+	
+    <p>automated eletric cars and truks</p>
+    <img src="https://th.bing.com/th/id/OIP.fyOIXYVl7Lt0pLS1f_zv7AAAAA?pid=ImgDet&w=390&h=292&rs=1" alt="boy" class="w3-image" width="900" height="700">
+	</header>
+
+	
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-black w3-padding-44" id="about">
+    <h2 class="w3-text-black">about</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>Tesla, Inc. is an American electric vehicle and clean energy company based in Palo Alto, California, United States.
+	 Tesla designs and manufactures electric cars, battery energy storage from home to grid-scale, 
+	solar panels and solar roof tiles, and related products and services. 
+	In 2020, Tesla had the most sales of battery electric vehicles and plug-in electric vehicles, capturing 16% of the plug-in market and 23% of 
+      the battery-electric market. Through its subsidiary Tesla Energy, the company develops and is a major installer of photovoltaic systems in the United States. 
+       Tesla Energy is also one of the largest global suppliers of battery energy storage systems, with 3 gigawatt-hours installed in 2020.
+    </p>
+    <h3 class="w3-padding-32 w3-text-black">Features</h3>
+    <p class="w3-wide">speed (145mph)</p>
+    <p class="w3-wide">self driving</p>
+    <p class="w3-wide">Navigate on Autopilot</p>
+    <p  class ="w3-wide">autopilot</p>
+    <p class="w3-large">Summon</p>
+    
+    
+
+    <button class="w3-button w3-black w3-padding-large w3-section w3-hover-aqua >
+      <i class="fa fa-reorder"w3-green></i>order now
+    </button>
+
+
+
+
+
+<table style="width:100%">
+  <tr>
+    <th>Downpayment</th>
+    <th>APR%</th>
+    <th>financial amount</>
+  </tr>
+  <tr>
+    <td>$4,500</td>
+    <td>2.49%</td>
+    <td>$48,190</td>
+  </tr>
+</table>
+    
+    
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-black">My Photos</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding-24" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="https://th.bing.com/th/id/R.0f08a761b80ef9ca604de558f5f63dd0?rik=tRDI9J8VlJBpAg&riu=http%3a%2f%2fst.motortrend.com%2fuploads%2fsites%2f5%2f2016%2f03%2fTesla-Model-3-interior-1.jpg&ehk=z9OR0%2bAEgbSj5WyS%2f%2b7FMwFwAKSmmCqcOrS%2f3caZcAA%3d&risl=&pid=ImgRaw&r=0" style="width:100%">
+        <img src="https://www.bing.com/th?id=AMMS_f7e2da5e39f735f8746897df383feffb&w=236&h=183&c=8&rs=1&o=5&dpr=1.25&pid=3.1&rm=2" style="width:100%">
+        <img src="https://th.bing.com/th/id/OIP.IisLl0Qzml5TEyXKJaIhBQHaE8?pid=ImgDet&rs=1" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="https://www.bing.com/th?id=OIP.zFnYf6jjqGMdLN5M9yC7DAHaEK&w=233&h=133&c=8&rs=1&qlt=90&o=6&dpr=1.25&pid=3.1&rm=2" style="width:100%">
+        <img src="https://www.bing.com/th?id=OIP.NeW1XF91ljObhGclusilngHaE8&w=203&h=135&c=8&rs=1&qlt=90&o=6&dpr=1.25&pid=3.1&rm=2" style="width:100%">
+        <img src="https://www.bing.com/th?id=OIP.NeW1XF91ljObhGclusilngHaE8&w=203&h=135&c=8&rs=1&qlt=90&o=6&dpr=1.25&pid=3.1&rm=2" style="width:100%">
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+ </div>
+
+
+  <!-- Contact Section -->
+
+    <h2 class="w3-text-light-grey">My Photos</h2>
+    
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      
+    </div><br>
+  <div class="w3-padding-64 w3-content" id="contact">
+    <p> Send me a message:</p>
+
+    <form action="/action_page.php" target="_blank">
+	<h3 class="w3-padding-16 w3-text-light-black">details</h3>
+	<div w3-row-padding-24" style=margin:0 -16px>
+  		<label for="cars">city:</label>
+     			<select name="cars">
+    			<option value="">chicago</option>
+    			<option value="">new york</option>
+    			<option value="">los angeles</option>
+    			<option value="">houston</option>
+    			<option value="">dallas</option>
+    			<option value="">collumbus</option>
+    			<option value="">denver</option>
+    			<option value="">washington</option>
+  			</select>
+ 			</div>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="enter the full Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+<div class="w3-padding-64 w3-content" id="vedios">
+<video autoplay muted loop id="myVideo">
+  <source src="pexels-ammad-8065325.mp4" type="video/mp4">
+  <a href="https://www.tesla.com/">for more details</a>
+</video>
+
+
+
+</div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-black w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-aqua"></i>
+    <i class="fa fa-instagram w3-hover-aqua"></i>
+    <i class="fa fa-snapchat w3-hover-aqua"></i>
+    <i class="fa fa-pinterest-p w3-hover-red"></i>
+    <i class="fa fa-twitter w3-hover-"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-red">w3.css</a></p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
